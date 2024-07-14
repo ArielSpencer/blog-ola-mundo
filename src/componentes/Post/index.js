@@ -5,7 +5,7 @@ import PostModelo from "componentes/PostModelo";
 import ReactMarkdown from "react-markdown";
 import NaoEncontrada from "paginas/NaoEncontrada";
 import PaginaPadrao from "componentes/PaginaPadrao";
-
+import PostsRecomendados from "componentes/PostsRecomendados";
 
 export default function Post() {
     const parametros = useParams();
@@ -31,6 +31,9 @@ export default function Post() {
                             <ReactMarkdown>
                                 {post.texto}
                             </ReactMarkdown>
+                        </div>
+                        <div>
+                            <PostsRecomendados />
                         </div>
 
                     </PostModelo>
