@@ -1,7 +1,12 @@
+import Banner from "componentes/Banner";
+
 function Inicio() {
-    return (
+  return (
+    <main>
+      <Banner />
       <h2>Página de Inicio</h2>
-    );
-  }
-  
-  export default Inicio;
+    </main>
+  );
+}
+
+export default Inicio;
