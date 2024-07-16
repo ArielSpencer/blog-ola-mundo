@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+![Static Badge](https://img.shields.io/badge/Ariel%20Spencer-Blog%20Ol%C3%A1%20Mundo-%238472E8) ![GitHub License](https://img.shields.io/github/license/arielspencer/blog-ola-mundo)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 👋🏻 Blog Olá Mundo
 
-## Available Scripts
+O **Blog Olá Mundo** é uma aplicação web projetada para compartilhar artigos e posts sobre uma ampla variedade de temas. Desenvolvido com [React](https://reactjs.org/) e outras tecnologias modernas de front-end, o projeto foca em performance, acessibilidade e boas práticas de desenvolvimento. Sendo altamente personalizável, permitindo que você adapte facilmente a identidade visual através de componentes e publique artigos sobre qualquer assunto de sua escolha.
 
-In the project directory, you can run:
+Este projeto foi desenvolvido como parte do curso [React: Desenvolvendo com React Router e JavaScript](https://cursos.alura.com.br/course/React-desenvolvendo-react-router-javaScript) da Alura. Agradecimentos especiais ao instrutor [Antônio Evaldo](https://github.com/antonio-evaldo).
 
-### `npm start`
+## Estrutura do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A estrutura do projeto segue uma organização modular, facilitando a manutenção e a escalabilidade do código. Abaixo está uma visão geral dos principais diretórios e arquivos:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+blog-ola-mundo/
+│
+├── public/
+│   ├── index.html
+│   └── …
+│
+├── src/  
+│   ├── assets/
+│   ├── components/
+│   ├── json/
+│   ├── pages/
+│   ├── App.js
+│   ├── index.js
+│   └── …
+│
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-### `npm test`
+- **public/:** Contém o arquivo index.html principal e outros recursos públicos.
+- **src/:** Diretório principal de código-fonte, contendo componentes, páginas, e ativos da aplicação.
+- **json/:** Contém o arquivo principal dos posts do blog, contendo id, título e conteúdo.
+- **.gitignore:** Lista de arquivos e diretórios a serem ignorados pelo Git.
+- **package.json:** Arquivo de configuração do npm, listando dependências e scripts do projeto.
+- **README.md:** Documento que você está lendo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionalidades
 
-### `npm run build`
+- **Criação de Posts:** Permite a criação de novos posts com título, conteúdo e imagem.
+- **Edição de Posts:** Permite a edição dos posts existentes.
+- **Exclusão de Posts:** Permite a exclusão de posts.
+- **Visualização de Posts:** Apresenta uma lista de todos os posts.
+- **Navegação com React Router:** Utiliza o React Router para uma navegação eficiente e intuitiva entre as diferentes páginas da aplicação.
+- **Página Sobre Mim:** Inclui uma página "Sobre Mim" onde o autor pode compartilhar informações pessoais e profissionais, criando uma conexão mais próxima com os leitores.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologias Utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React:** Biblioteca JavaScript para construção de interfaces de usuário.
+- **React Router:** Gerenciamento de rotas na aplicação.
+- **Styled Components:** Biblioteca para estilização de componentes React com CSS-in-JS.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instalação
 
-### `npm run eject`
+Para executar este projeto localmente, siga os passos abaixo no terminal:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone o repositório:**
+```
+git clone https://github.com/ArielSpencer/blog-ola-mundo.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2.	Instale as dependências:
+```
+cd blog-ola-mundo
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3.	Inicie a aplicação:
+```
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+A aplicação estará disponível em [http://localhost:3000](http://localhost:3000).
 
-## Learn More
+## Contribuição
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contribuições são incentivadas. Se você possui sugestões, melhorias ou correções, sinta-se à vontade para abrir uma [issue](https://github.com/ArielSpencer/Issue) ou submeter um [pull request](https://github.com/ArielSpencer/pull-request).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licença
 
-### Code Splitting
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](https://github.com/ArielSpencer/blog-ola-mundo/blob/4ea2b3675e78a0000c86ca581e73fd87c5598f75/LICENSE) para mais detalhes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Desenvolvido por
 
-### Analyzing the Bundle Size
+| [<img src="https://github.com/ArielSpencer.png" width=115><br><sub>Ariel Spencer</sub>](https://arielspencer.com.br/) |
+| :---: |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="https://www.linkedin.com/in/arielspencer-log/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"></a>
+<a href="https://github.com/ArielSpencer"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></a>
